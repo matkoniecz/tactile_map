@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/matkoniecz/tactile_map",
     packages=setuptools.find_packages(),
-    install_requires = [
+    install_requires=[
         'jsbeautifier>=1.13.5, <2.0',
         'shapely>=1..7.0, <2.0',
         'osm-bot-abstraction-layer>=0.0.10',
@@ -33,4 +33,3 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 )
-

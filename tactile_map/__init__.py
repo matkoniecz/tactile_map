@@ -1,1 +1,1 @@
-from tactile_map import * # noqa 
+from tactile_map import *  # noqa
