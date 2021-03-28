@@ -19,6 +19,13 @@ setuptools.setup(
         'osm-bot-abstraction-layer>=0.0.10',
         'tactile-patterns>=0.0.1',
     ],
+    # use following to install that:
+    # pip install --user -e .[dev]
+    extras_require={
+        'dev': [
+            'pylint'
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
