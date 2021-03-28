@@ -21,3 +21,11 @@ Note that by contributing code you are licensing it to license used by this repo
 `pylint **/*.py --include-naming-hint=y --variable-rgx=^[a-z][a-z0-9]*((_[a-z0-9]+)*)?$ --argument-rgx=^[a-z][a-z0-9]*((_[a-z0-9]+)*)?$ --disable=C0103`
 
 It includes a workaround for bug [#2018](https://github.com/PyCQA/pylint/issues/2018) and disables rule `C0103` with many false positives (too eager to convert variables into constants).
+
+# Automatically reformat code to follow Python coding standards
+
+Line length is an exception, this project allows also longer ones.
+
+`autopep8 --max-line-length 110 --in-place --recursive .`
+
+[PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
